@@ -1,3 +1,4 @@
+/* ********---------Header-Start-------************* */
 .navhead {
     border-bottom: solid 1px rgba(162, 161, 161, 0.288);
 }
@@ -20,23 +21,24 @@
     font-size: 10px;
 }
 
+/* *************** -------Header-end----------------*********** */
+
+
+
+/* *********---------------section_1-Start------------------******  */
 .section_1_text {
     font-size: 45px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
 }
-
 .section1_para {
     font-family: 'Times New Roman', Times, serif;
 }
-
-
 .top_img {
     max-width: 85%;
     height: auto;
     border-radius: 8px;
 }
-
 .shop_now_btn {
     background-color: #E56639;
     border-radius: 15px;
@@ -45,9 +47,9 @@
     color: #fff;
     border: none;
 }
+/* -------------------Section_1-End------------------------------ */
 
-
-/* ******* section_2 ************ */
+/* *******--------------section_2 & Section_4 -Start--- -------************ */
 .section2_text {
     color: #0f0f0f;
     font-size: 45px;
@@ -55,7 +57,6 @@
     font-weight: bold;
     margin-bottom: 30px;
 }
-
 .section_2 {
     background-color: #F9EFE5;
     padding-top: 60px;
@@ -98,17 +99,16 @@
     color: #E56639;
 }
 
-
-
-
 .section_2_sizechart {
     font-family: 'Times New Roman', Times, serif;
     border: solid 1px gray;
     border-radius: 9px;
     padding: 6px 15px;
 }
+/* -----------------Section_2 & Section_4 -End----------------- */
 
-/* ******* section-3 ******* */
+
+/* *******------------- section_3-Start---------- ******* */
 .section_3 {
     background-color: #4A4A4A;
     color: white;
@@ -122,8 +122,6 @@
     padding-bottom: 60px;
 
 }
-
-
 
 .promo-heading {
     font-size: 2.5rem;
@@ -154,8 +152,10 @@
     color: #E56639;
     border: solid 2px #E56639;
 }
+/* -----------------Section_3-End----------------------- */
 
-/* ***** section_5*********** */
+
+/* *****--------------- section_5- Start---------------*********** */
 .section_5_text {
     font-family: 'Times New Roman', Times, serif;
     font-size: 50px;
@@ -191,14 +191,14 @@
     color: #E56639;
     border: solid 1px #FF6B35;
 }
+/* --------------------Section_5-end -------------------*/
 
-/* ******** customer_review_section ************ */
+
+/* ********------------- customer_review_section-Start---------************ */
 .customers_review_section {
     background-color: #F9EFE5;
     font-family: 'Times New Roman', Times, serif;
 }
-
-
 
 .customers_section {
     font-size: 50px;
@@ -206,13 +206,12 @@
     padding-top: 60px;
     padding-bottom: 40px;
 }
-
-
 .customers_text_section {
     background-color: #FFFFFF;
     padding: 20px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+    
 }
 
 .customers_image {
@@ -229,8 +228,11 @@
     display: flex;
     justify-content: space-between;
 }
+/* ********------------- customer_review_section-end---------************ */
 
-/* ******** image_ section ******* */
+
+
+/* ******** -------image_ section-Start-------------- ******* */
 .image_section_text {
     font-size: 50px;
     font-family: 'Times New Roman', Times, serif;
@@ -238,6 +240,12 @@
 
 .image_section_para {
     font-family: 'Times New Roman', Times, serif;
+}
+
+.image_section_img img:hover {
+    transform: scale(1.03);
+    filter: drop-shadow(1px 1px 10px gray);
+    border-radius: 10px;
 }
 
 .See_more_btn {
@@ -257,8 +265,10 @@
     color: #E56639;
     border: solid 1px #FF6B35;
 }
+/* ******** -------image_ section-End-------------- ******* */
 
-/* ******* footer--- section******* */
+
+/* *******----------footer--- section -Start------------******* */
 .footer_section {
     background-color: #666666;
     color: #ffff;
@@ -266,15 +276,16 @@
     padding-bottom: 40px;
 
 }
-
 .footer_section_text {
-font-size: 40px;
-font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
 }
-.footer_section_para{
-font-family: 'Times New Roman', Times, serif;
+
+.footer_section_para {
+    font-family: 'Times New Roman', Times, serif;
 }
-.footer_btn_suscribe{
+
+.footer_btn_suscribe {
     border-radius: 10px;
     padding: 10px 30px;
     background-color: #FF6B35;
@@ -284,17 +295,21 @@ font-family: 'Times New Roman', Times, serif;
     font-family: 'Times New Roman', Times, serif;
 
 }
-.footer_btn_suscribe:hover{
+
+.footer_btn_suscribe:hover {
     background-color: #666666;
     color: #E56639;
     border: solid 1px #FF6B35;
 }
-.footer_input{
+
+.footer_input {
     padding: 10px 20px;
     border-radius: 10px;
     border: none;
 }
-.footer_input:placeholder-shown{
+
+.footer_input:placeholder-shown {
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
 }
+/* *******----------footer--- section -End------------******* */
