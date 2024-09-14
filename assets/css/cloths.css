@@ -250,10 +250,14 @@
 .image_section_para {
     font-family: 'Times New Roman', Times, serif;
 }
+.image_section_img{
+    transition: 400ms;
+}
 
 .image_section_img img:hover {
     transform: scale(1.01);
     filter: drop-shadow(1px 1px 10px gray);
+  
 }
 
 .See_more_btn {
