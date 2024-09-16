@@ -1,7 +1,8 @@
 /* ********---------Header-Start-------************* */
-*body{
+*body {
     font-family: 'Times New Roman', Times, serif;
 }
+
 .navhead {
     border-bottom: solid 1px rgba(162, 161, 161, 0.288);
 }
@@ -34,14 +35,17 @@
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
 }
+
 .section1_para {
     font-family: 'Times New Roman', Times, serif;
 }
+
 .top_img {
     max-width: 85%;
     height: auto;
     border-radius: 8px;
 }
+
 .shop_now_btn {
     background-color: #E56639;
     border-radius: 15px;
@@ -49,12 +53,16 @@
     font-family: 'Times New Roman', Times, serif;
     color: #fff;
     border: none;
+    font-weight: bold;
+    height: 55px;
 }
-.shop_now_btn:hover{
+
+.shop_now_btn:hover {
     background-color: #fff;
     border: solid 1px #E56639;
     color: #E56639;
 }
+
 /* -------------------Section_1-End------------------------------ */
 
 /* *******--------------section_2 & Section_4 -Start--- -------************ */
@@ -65,6 +73,7 @@
     font-weight: bold;
     margin-bottom: 30px;
 }
+
 .section_2 {
     background-color: #F9EFE5;
     padding-top: 60px;
@@ -99,6 +108,9 @@
     width: auto;
     border: none;
     font-family: 'Times New Roman', Times, serif;
+    width: 245px;
+    height: 55px;
+    font-size: 18px;
 
 }
 
@@ -114,6 +126,7 @@
     border-radius: 9px;
     padding: 6px 15px;
 }
+
 /* -----------------Section_2 & Section_4 -End----------------- */
 
 
@@ -121,7 +134,7 @@
 .section_3 {
     background-color: #666666;
     color: white;
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     text-align: center;
     height: auto;
     display: flex;
@@ -153,6 +166,8 @@
     text-transform: uppercase;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
+    width: 50px;
+    height: 50px;
 
 }
 
@@ -161,6 +176,7 @@
     color: #E56639;
     border: solid 1px #E56639;
 }
+
 /* -----------------Section_3-End----------------------- */
 
 
@@ -182,6 +198,14 @@
     font-size: 15px;
 }
 
+.section5_icon {
+    font-size: 25px;
+    color: #E56639;
+    background-color: #F9EFE5;
+    padding: 15px;
+    border-radius: 120px;
+}
+
 .shop-btn_save {
     justify-content: center;
     background-color: #FF6B35;
@@ -192,6 +216,8 @@
     text-transform: uppercase;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
+    height: 50px;
+    width: 50px;
 
 }
 
@@ -200,6 +226,7 @@
     color: #E56639;
     border: solid 1px #FF6B35;
 }
+
 /* --------------------Section_5-end -------------------*/
 
 
@@ -215,12 +242,13 @@
     padding-top: 60px;
     padding-bottom: 40px;
 }
+
 .customers_text_section {
     background-color: #FFFFFF;
     padding: 20px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    
+
 }
 
 .customers_image {
@@ -237,6 +265,7 @@
     display: flex;
     justify-content: space-between;
 }
+
 /* ********------------- customer_review_section-end---------************ */
 
 
@@ -250,15 +279,55 @@
 .image_section_para {
     font-family: 'Times New Roman', Times, serif;
 }
-.image_section_img{
-    transition: 400ms;
+
+#Image_section_image {
+    width: 280px;
+    height: 280px;
+    background-size: 100%;
+    /* Background starts at normal size */
+    background-position: center;
+    transition: background-size .25s ease;
+    /* Smooth transition for zoom-out effect */
 }
 
-.image_section_img img:hover {
-    transform: scale(1.01);
-    filter: drop-shadow(1px 1px 10px gray);
-  
+.overlay {
+    background-color: rgba(61, 61, 61, 0.523);
+    text-align: center;
+    padding: 39.3% 0;
+    opacity: 0;
+    transition: opacity .25s ease;
 }
+
+#Image_section_image:hover .overlay {
+    opacity: 0.9;
+}
+
+#Image_section_image:hover {
+    background-size: 110%;
+    /* Zoom out effect (image appears to zoom away) */
+}
+
+.Shop_this_products {
+    font-family: HelveticaNeueLTStd;
+    font-weight: 400;
+    font-size: .85rem;
+    text-transform: uppercase;
+    /* padding-bottom: .25rem; */
+    color: white;
+}
+
+.tag_icon {
+    background-color: rgba(0, 0, 0, 0.379);
+    font-size: 22px;
+    padding: 9px;
+    border-radius: 50%;
+    color: #ffffff;
+    position: relative;
+    top: -40px;
+    left: -105px;
+    
+}
+
 
 .See_more_btn {
     justify-content: center;
@@ -270,6 +339,8 @@
     text-transform: uppercase;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
+    height: 50px;
+    width: 150px;
 }
 
 .See_more_btn:hover {
@@ -277,6 +348,7 @@
     color: #E56639;
     border: solid 1px #FF6B35;
 }
+
 /* ******** -------image_ section-End-------------- ******* */
 
 
@@ -288,6 +360,7 @@
     padding-bottom: 40px;
 
 }
+
 .footer_section_text {
     font-size: 40px;
     font-family: 'Times New Roman', Times, serif;
@@ -305,6 +378,7 @@
     color: #fff;
     border: none;
     font-family: 'Times New Roman', Times, serif;
+    height: 50px;
 
 }
 
@@ -315,6 +389,7 @@
 }
 
 .footer_input {
+    width: 400px;
     padding: 10px 20px;
     border-radius: 10px;
     border: none;
@@ -325,13 +400,16 @@
     font-weight: bold;
 }
 
-.Footer_icons{
-    gap: 20px; padding-bottom: 30px;
+.Footer_icons {
+    gap: 20px;
+    padding-bottom: 30px;
 }
-.footer_icon_facebook{
+
+.footer_icon_facebook {
     background-color: #3B3026;
     padding: 10px;
     border-radius: 100px;
     font-size: 30px;
 }
+
 /* *******----------footer--- section -End------------******* */
